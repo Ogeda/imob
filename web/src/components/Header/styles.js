@@ -18,4 +18,23 @@ export const Logo = styled.div`
   }
 `
 
-export const Menu = styled.div``
+export const Menu = styled.div`
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      border: 1px solid var(--gray);
+      border-radius: 10px;
+      padding: 10px;
+      span {
+        font-size: 1.2rem;
+        font-weight: 300;
+      }
+      &:hover {
+        background-color: var(--gray);
+        cursor: pointer;
+      }
+    }
+  }
+`

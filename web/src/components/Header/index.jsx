@@ -10,7 +10,7 @@ const Header = () => {
       </Logo>
       <Menu>
         <ul>
-          <li><span>Cadastro/Login</span></li>
+          <li><span>Cadastro/Login</span></li> {/* adicionar outros menus */}
         </ul>
       </Menu>
     </Container>
